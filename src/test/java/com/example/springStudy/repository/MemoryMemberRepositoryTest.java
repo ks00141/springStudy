@@ -26,7 +26,6 @@ public class MemoryMemberRepositoryTest{
 
         Member result = repository.save(member);
         assertThat(member).isEqualTo(result);
-
     }
 
     @Test
